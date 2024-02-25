@@ -1,0 +1,12 @@
+D:\konsi_desafio\Businnes.Layer\bin\Debug\net8.0\Businnes.Layer.deps.json
+D:\konsi_desafio\Businnes.Layer\bin\Debug\net8.0\Businnes.Layer.dll
+D:\konsi_desafio\Businnes.Layer\bin\Debug\net8.0\Businnes.Layer.pdb
+D:\konsi_desafio\Businnes.Layer\obj\Debug\net8.0\Businnes.Layer.GeneratedMSBuildEditorConfig.editorconfig
+D:\konsi_desafio\Businnes.Layer\obj\Debug\net8.0\Businnes.Layer.AssemblyInfoInputs.cache
+D:\konsi_desafio\Businnes.Layer\obj\Debug\net8.0\Businnes.Layer.AssemblyInfo.cs
+D:\konsi_desafio\Businnes.Layer\obj\Debug\net8.0\Businnes.Layer.csproj.CoreCompileInputs.cache
+D:\konsi_desafio\Businnes.Layer\obj\Debug\net8.0\Businnes.Layer.sourcelink.json
+D:\konsi_desafio\Businnes.Layer\obj\Debug\net8.0\Businnes.Layer.dll
+D:\konsi_desafio\Businnes.Layer\obj\Debug\net8.0\refint\Businnes.Layer.dll
+D:\konsi_desafio\Businnes.Layer\obj\Debug\net8.0\Businnes.Layer.pdb
+D:\konsi_desafio\Businnes.Layer\obj\Debug\net8.0\ref\Businnes.Layer.dll

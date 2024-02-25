@@ -1,0 +1,12 @@
+D:\konsi_desafio\ElasticSearch.Provider\bin\Debug\net8.0\ElasticSearch.Provider.deps.json
+D:\konsi_desafio\ElasticSearch.Provider\bin\Debug\net8.0\ElasticSearch.Provider.dll
+D:\konsi_desafio\ElasticSearch.Provider\bin\Debug\net8.0\ElasticSearch.Provider.pdb
+D:\konsi_desafio\ElasticSearch.Provider\obj\Debug\net8.0\ElasticSearch.Provider.GeneratedMSBuildEditorConfig.editorconfig
+D:\konsi_desafio\ElasticSearch.Provider\obj\Debug\net8.0\ElasticSearch.Provider.AssemblyInfoInputs.cache
+D:\konsi_desafio\ElasticSearch.Provider\obj\Debug\net8.0\ElasticSearch.Provider.AssemblyInfo.cs
+D:\konsi_desafio\ElasticSearch.Provider\obj\Debug\net8.0\ElasticSearch.Provider.csproj.CoreCompileInputs.cache
+D:\konsi_desafio\ElasticSearch.Provider\obj\Debug\net8.0\ElasticSearch.Provider.sourcelink.json
+D:\konsi_desafio\ElasticSearch.Provider\obj\Debug\net8.0\ElasticSearch.Provider.dll
+D:\konsi_desafio\ElasticSearch.Provider\obj\Debug\net8.0\refint\ElasticSearch.Provider.dll
+D:\konsi_desafio\ElasticSearch.Provider\obj\Debug\net8.0\ElasticSearch.Provider.pdb
+D:\konsi_desafio\ElasticSearch.Provider\obj\Debug\net8.0\ref\ElasticSearch.Provider.dll

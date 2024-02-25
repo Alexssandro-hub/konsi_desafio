@@ -1,0 +1,12 @@
+[
+  {
+    "ContainingType": "konsi.Controllers.AuthController",
+    "Method": "Auth",
+    "RelativePath": "Auth",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  }
+]

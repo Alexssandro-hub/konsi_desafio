@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Businnes.Layer\Businnes.Layer.csproj" />
+    <ProjectReference Include="..\ElasticSearch.Provider\ElasticSearch.Provider.csproj" />
+    <ProjectReference Include="..\RabbitMQ.Provider\RabbitMQ.Provider.csproj" />
+    <ProjectReference Include="..\Redis.Provider\Redis.Provider.csproj" />
+  </ItemGroup>
+
+</Project>

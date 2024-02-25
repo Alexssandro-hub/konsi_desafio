@@ -1,0 +1,12 @@
+D:\konsi_desafio\Redis.Provider\bin\Debug\net8.0\Redis.Provider.deps.json
+D:\konsi_desafio\Redis.Provider\bin\Debug\net8.0\Redis.Provider.dll
+D:\konsi_desafio\Redis.Provider\bin\Debug\net8.0\Redis.Provider.pdb
+D:\konsi_desafio\Redis.Provider\obj\Debug\net8.0\Redis.Provider.GeneratedMSBuildEditorConfig.editorconfig
+D:\konsi_desafio\Redis.Provider\obj\Debug\net8.0\Redis.Provider.AssemblyInfoInputs.cache
+D:\konsi_desafio\Redis.Provider\obj\Debug\net8.0\Redis.Provider.AssemblyInfo.cs
+D:\konsi_desafio\Redis.Provider\obj\Debug\net8.0\Redis.Provider.csproj.CoreCompileInputs.cache
+D:\konsi_desafio\Redis.Provider\obj\Debug\net8.0\Redis.Provider.sourcelink.json
+D:\konsi_desafio\Redis.Provider\obj\Debug\net8.0\Redis.Provider.dll
+D:\konsi_desafio\Redis.Provider\obj\Debug\net8.0\refint\Redis.Provider.dll
+D:\konsi_desafio\Redis.Provider\obj\Debug\net8.0\Redis.Provider.pdb
+D:\konsi_desafio\Redis.Provider\obj\Debug\net8.0\ref\Redis.Provider.dll
