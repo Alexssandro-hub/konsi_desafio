@@ -1,11 +1,13 @@
+using ElasticSearch.Provider;
 using konsi.Services;
 using RabbitMQ.Provider.RabbitMQ.Interfaces;
 using RabbitMQ.Provider.RabbitMQ.Provider;
 using Redis.Provider.Redis.Interfaces;
 using Redis.Provider.Redis.Services;
 
-var builder = WebApplication.CreateBuilder(args);
- 
+var builder = WebApplication.CreateBuilder(args); 
+builder.Services.AddElasticSearch(builder.Configuration);
+
 builder.Services.AddScoped(typeof(HttpClient));
 builder.Services.AddScoped<IRabbitMQProducer, RabbitMQProducer>();
 builder.Services.AddScoped<ICacheService, CacheService>();

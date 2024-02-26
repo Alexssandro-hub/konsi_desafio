@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Hosting;
+using Nest;
 using Newtonsoft.Json;
 using RabbitMQ.Client;
 using RabbitMQ.Client.Events;
@@ -14,9 +16,16 @@ namespace RabbitMQ.Provider.RabbitMQ.Provider
     public class RabbitMQProducer : IRabbitMQProducer
     {
         private readonly VerifyExistsDataService _verifyExistsDataService;
-        public RabbitMQProducer(VerifyExistsDataService verifyExistsDataService)
+        private readonly IElasticClient _elasticClient;
+        private readonly IWebHostEnvironment _hostingEnvironment;
+        public RabbitMQProducer(
+            VerifyExistsDataService verifyExistsDataService,
+            IElasticClient elasticClient, 
+            IWebHostEnvironment hostingEnvironment)
         {
             _verifyExistsDataService = verifyExistsDataService;
+            _elasticClient = elasticClient;
+            _hostingEnvironment = hostingEnvironment;
         }
 
         public async Task CheckBenefits(string apiUrl, List<string> cpfs)
@@ -71,14 +80,24 @@ namespace RabbitMQ.Provider.RabbitMQ.Provider
             {
                 channel.QueueDeclare(queue: "cpf_queue", durable: true, exclusive: false, autoDelete: false, arguments: null);
 
-                var consumer = new EventingBasicConsumer(channel);
+                var consumer = new EventingBasicConsumer(channel); 
+                var settings = new ConnectionSettings(new Uri("http://localhost:9200")).DefaultIndex("cpfs");
+
+                var client = new ElasticClient(settings);
+
                 consumer.Received += (model, ea) =>
                 {
                     var body = ea.Body.ToArray();
                     var cpf = Encoding.UTF8.GetString(body);
                      
-                    _verifyExistsDataService.VerifyRedis(cpf); 
-                    //CreateIndexesElasticsearch(cpf);
+                    _verifyExistsDataService.VerifyRedis(cpf);
+
+                    var indexResponse = client.IndexDocument(new
+                    {
+                        CPF = cpf,
+                        //Matriculas = matriculas
+                    });
+                     
                 };
 
                 channel.BasicConsume(queue: "cpf_queue", autoAck: true, consumer: consumer); 

@@ -4,66 +4,6 @@
     "D:\\konsi_desafio\\konsi\\konsi.csproj": {}
   },
   "projects": {
-    "D:\\konsi_desafio\\Businnes.Layer\\Businnes.Layer.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "D:\\konsi_desafio\\Businnes.Layer\\Businnes.Layer.csproj",
-        "projectName": "Businnes.Layer",
-        "projectPath": "D:\\konsi_desafio\\Businnes.Layer\\Businnes.Layer.csproj",
-        "packagesPath": "C:\\Users\\Alex\\.nuget\\packages\\",
-        "outputPath": "D:\\konsi_desafio\\Businnes.Layer\\obj\\",
-        "projectStyle": "PackageReference",
-        "configFilePaths": [
-          "C:\\Users\\Alex\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
-        ],
-        "originalTargetFrameworks": [
-          "net8.0"
-        ],
-        "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
-        },
-        "frameworks": {
-          "net8.0": {
-            "targetAlias": "net8.0",
-            "projectReferences": {}
-          }
-        },
-        "warningProperties": {
-          "warnAsError": [
-            "NU1605"
-          ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
-        }
-      },
-      "frameworks": {
-        "net8.0": {
-          "targetAlias": "net8.0",
-          "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48",
-            "net481"
-          ],
-          "assetTargetFallback": true,
-          "warn": true,
-          "frameworkReferences": {
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
-        }
-      }
-    },
     "D:\\konsi_desafio\\ElasticSearch.Provider\\ElasticSearch.Provider.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -104,6 +44,20 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "NEST": {
+              "target": "Package",
+              "version": "[7.17.5, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -148,9 +102,6 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\konsi_desafio\\Businnes.Layer\\Businnes.Layer.csproj": {
-                "projectPath": "D:\\konsi_desafio\\Businnes.Layer\\Businnes.Layer.csproj"
-              },
               "D:\\konsi_desafio\\ElasticSearch.Provider\\ElasticSearch.Provider.csproj": {
                 "projectPath": "D:\\konsi_desafio\\ElasticSearch.Provider\\ElasticSearch.Provider.csproj"
               },
@@ -177,6 +128,12 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "NEST": {
+              "target": "Package",
+              "version": "[7.17.5, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -264,6 +221,10 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[8.0.2, )"
+            },
+            "NEST": {
+              "target": "Package",
+              "version": "[7.17.5, )"
             },
             "Newtonsoft.Json": {
               "target": "Package",
@@ -358,6 +319,10 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[8.0.2, )"
+            },
+            "Microsoft.SqlServer.SqlManagementObjects": {
+              "target": "Package",
+              "version": "[170.23.0, )"
             },
             "Newtonsoft.Json": {
               "target": "Package",

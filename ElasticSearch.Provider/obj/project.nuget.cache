@@ -1,8 +1,17 @@
 {
   "version": 2,
-  "dgSpecHash": "sQa2VFFWrDr6pM43HTmQXPTR3E5vftS4eMfU+sYJ8FRuh9SU/ZxAZVBxgCI27EeWxqfPF/dSBGk9KlZepbzMPg==",
+  "dgSpecHash": "K8rN9VHTYljQiYz4DxHFWdKQmrn5WDeJU+tEn4kMz8fwRwOMaWYeMw+NOrWzNTRFh1oA3kLw5OU2lnTbwUcbCw==",
   "success": true,
   "projectFilePath": "D:\\konsi_desafio\\ElasticSearch.Provider\\ElasticSearch.Provider.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Alex\\.nuget\\packages\\elasticsearch.net\\7.17.5\\elasticsearch.net.7.17.5.nupkg.sha512",
+    "C:\\Users\\Alex\\.nuget\\packages\\microsoft.csharp\\4.6.0\\microsoft.csharp.4.6.0.nupkg.sha512",
+    "C:\\Users\\Alex\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\8.0.0\\microsoft.extensions.configuration.abstractions.8.0.0.nupkg.sha512",
+    "C:\\Users\\Alex\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0\\microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512",
+    "C:\\Users\\Alex\\.nuget\\packages\\microsoft.extensions.primitives\\8.0.0\\microsoft.extensions.primitives.8.0.0.nupkg.sha512",
+    "C:\\Users\\Alex\\.nuget\\packages\\nest\\7.17.5\\nest.7.17.5.nupkg.sha512",
+    "C:\\Users\\Alex\\.nuget\\packages\\system.buffers\\4.5.1\\system.buffers.4.5.1.nupkg.sha512",
+    "C:\\Users\\Alex\\.nuget\\packages\\system.diagnostics.diagnosticsource\\5.0.0\\system.diagnostics.diagnosticsource.5.0.0.nupkg.sha512"
+  ],
   "logs": []
 }
