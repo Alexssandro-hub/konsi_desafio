@@ -3,14 +3,39 @@
   "WorkspaceRootPath": "D:\\konsi_desafio\\konsi\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4840EC2E-042B-4434-9E3A-6CACB09063EA}|..\\ElasticSearch.Provider\\ElasticSearch.Provider.csproj|d:\\konsi_desafio\\elasticsearch.provider\\elasticsearchextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{313F2926-4609-4B04-AD17-050005AD028B}|..\\RabbitMQ.Provider\\RabbitMQ.Provider.csproj|d:\\konsi_desafio\\rabbitmq.provider\\rabbitmq\\provider\\rabbitmqproducer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{313F2926-4609-4B04-AD17-050005AD028B}|..\\RabbitMQ.Provider\\RabbitMQ.Provider.csproj|d:\\konsi_desafio\\rabbitmq.provider\\rabbitmq\\provider\\rabbitmqproducer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{647A2DB1-FF90-4FE3-B10D-11E5C8C1E96C}|konsi.csproj|d:\\konsi_desafio\\konsi\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{647A2DB1-FF90-4FE3-B10D-11E5C8C1E96C}|konsi.csproj|solutionrelative:services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{647A2DB1-FF90-4FE3-B10D-11E5C8C1E96C}|konsi.csproj|d:\\konsi_desafio\\konsi\\models\\queriescpfs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{647A2DB1-FF90-4FE3-B10D-11E5C8C1E96C}|konsi.csproj|solutionrelative:models\\queriescpfs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{647A2DB1-FF90-4FE3-B10D-11E5C8C1E96C}|konsi.csproj|d:\\konsi_desafio\\konsi\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{647A2DB1-FF90-4FE3-B10D-11E5C8C1E96C}|konsi.csproj|solutionrelative:controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B6A583F-B094-4EDF-B14F-324C11C5B44E}|..\\Redis.Provider\\Redis.Provider.csproj|d:\\konsi_desafio\\redis.provider\\redis\\services\\verifyexistsdataservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{313F2926-4609-4B04-AD17-050005AD028B}|..\\RabbitMQ.Provider\\RabbitMQ.Provider.csproj|d:\\konsi_desafio\\rabbitmq.provider\\rabbitmq\\interfaces\\irabbitmqproducer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{647A2DB1-FF90-4FE3-B10D-11E5C8C1E96C}|konsi.csproj|d:\\konsi_desafio\\konsi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{647A2DB1-FF90-4FE3-B10D-11E5C8C1E96C}|konsi.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B6A583F-B094-4EDF-B14F-324C11C5B44E}|..\\Redis.Provider\\Redis.Provider.csproj|d:\\konsi_desafio\\redis.provider\\redis\\services\\cacheservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{647A2DB1-FF90-4FE3-B10D-11E5C8C1E96C}|konsi.csproj|d:\\konsi_desafio\\konsi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{647A2DB1-FF90-4FE3-B10D-11E5C8C1E96C}|konsi.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4840EC2E-042B-4434-9E3A-6CACB09063EA}|..\\ElasticSearch.Provider\\ElasticSearch.Provider.csproj|d:\\konsi_desafio\\elasticsearch.provider\\elasticsearchextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{647A2DB1-FF90-4FE3-B10D-11E5C8C1E96C}|konsi.csproj|d:\\konsi_desafio\\konsi\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
@@ -21,16 +46,6 @@
       "RelativeMoniker": "D:0:0:{647A2DB1-FF90-4FE3-B10D-11E5C8C1E96C}|konsi.csproj|solutionrelative:constants\\url.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7B6A583F-B094-4EDF-B14F-324C11C5B44E}|..\\Redis.Provider\\Redis.Provider.csproj|d:\\konsi_desafio\\redis.provider\\redis\\services\\verifyexistsdataservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{647A2DB1-FF90-4FE3-B10D-11E5C8C1E96C}|konsi.csproj|d:\\konsi_desafio\\konsi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{647A2DB1-FF90-4FE3-B10D-11E5C8C1E96C}|konsi.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7B6A583F-B094-4EDF-B14F-324C11C5B44E}|..\\Redis.Provider\\Redis.Provider.csproj|d:\\konsi_desafio\\redis.provider\\redis\\services\\cacheservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{7B6A583F-B094-4EDF-B14F-324C11C5B44E}|..\\Redis.Provider\\Redis.Provider.csproj|d:\\konsi_desafio\\redis.provider\\connectionhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -38,21 +53,6 @@
     },
     {
       "AbsoluteMoniker": "D:0:0:{7B6A583F-B094-4EDF-B14F-324C11C5B44E}|..\\Redis.Provider\\Redis.Provider.csproj|d:\\konsi_desafio\\redis.provider\\redis\\interfaces\\icacheservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{647A2DB1-FF90-4FE3-B10D-11E5C8C1E96C}|konsi.csproj|d:\\konsi_desafio\\konsi\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{647A2DB1-FF90-4FE3-B10D-11E5C8C1E96C}|konsi.csproj|solutionrelative:services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{647A2DB1-FF90-4FE3-B10D-11E5C8C1E96C}|konsi.csproj|d:\\konsi_desafio\\konsi\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{647A2DB1-FF90-4FE3-B10D-11E5C8C1E96C}|konsi.csproj|solutionrelative:controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{313F2926-4609-4B04-AD17-050005AD028B}|..\\RabbitMQ.Provider\\RabbitMQ.Provider.csproj|d:\\konsi_desafio\\rabbitmq.provider\\rabbitmq\\interfaces\\irabbitmqproducer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{647A2DB1-FF90-4FE3-B10D-11E5C8C1E96C}|konsi.csproj|d:\\konsi_desafio\\konsi\\models\\queriescpfs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{647A2DB1-FF90-4FE3-B10D-11E5C8C1E96C}|konsi.csproj|solutionrelative:models\\queriescpfs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{647A2DB1-FF90-4FE3-B10D-11E5C8C1E96C}|konsi.csproj|d:\\konsi_desafio\\konsi\\models\\userrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -81,63 +81,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{0174dea2-fdbe-4ef1-8f99-c0beae78880f}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ElasticSearchExtension.cs",
-              "DocumentMoniker": "D:\\konsi_desafio\\ElasticSearch.Provider\\ElasticSearchExtension.cs",
-              "RelativeDocumentMoniker": "..\\ElasticSearch.Provider\\ElasticSearchExtension.cs",
-              "ToolTip": "D:\\konsi_desafio\\ElasticSearch.Provider\\ElasticSearchExtension.cs",
-              "RelativeToolTip": "..\\ElasticSearch.Provider\\ElasticSearchExtension.cs",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAowBkAAAA/AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-26T00:17:07.853Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "VerifyExistsDataService.cs",
-              "DocumentMoniker": "D:\\konsi_desafio\\Redis.Provider\\Redis\\Services\\VerifyExistsDataService.cs",
-              "RelativeDocumentMoniker": "..\\Redis.Provider\\Redis\\Services\\VerifyExistsDataService.cs",
-              "ToolTip": "D:\\konsi_desafio\\Redis.Provider\\Redis\\Services\\VerifyExistsDataService.cs",
-              "RelativeToolTip": "..\\Redis.Provider\\Redis\\Services\\VerifyExistsDataService.cs",
-              "ViewState": "AQIAAAIAAAAAAAAAAAAuwAsAAAAUAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-25T23:24:45.129Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "ConnectionHelper.cs",
-              "DocumentMoniker": "D:\\konsi_desafio\\Redis.Provider\\ConnectionHelper.cs",
-              "RelativeDocumentMoniker": "..\\Redis.Provider\\ConnectionHelper.cs",
-              "ToolTip": "D:\\konsi_desafio\\Redis.Provider\\ConnectionHelper.cs",
-              "RelativeToolTip": "..\\Redis.Provider\\ConnectionHelper.cs",
-              "ViewState": "AQIAAAEAAAAAAAAAAAAqwBMAAAANAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-25T22:39:45.231Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "appsettings.Development.json",
-              "DocumentMoniker": "D:\\konsi_desafio\\konsi\\appsettings.Development.json",
-              "RelativeDocumentMoniker": "appsettings.Development.json",
-              "ToolTip": "D:\\konsi_desafio\\konsi\\appsettings.Development.json",
-              "RelativeToolTip": "appsettings.Development.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAZAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-02-25T22:30:29.765Z",
-              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -160,40 +108,40 @@
               "RelativeDocumentMoniker": "..\\Redis.Provider\\Redis\\Services\\CacheService.cs",
               "ToolTip": "D:\\konsi_desafio\\Redis.Provider\\Redis\\Services\\CacheService.cs",
               "RelativeToolTip": "..\\Redis.Provider\\Redis\\Services\\CacheService.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAIBJwA4AAAAJAAAA",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAA4AAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-02-25T22:27:31.676Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 8,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\konsi_desafio\\konsi\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "D:\\konsi_desafio\\konsi\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAcAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAA8AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-02-25T20:02:32.866Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "RabbitMQProducer.cs",
               "DocumentMoniker": "D:\\konsi_desafio\\RabbitMQ.Provider\\RabbitMQ\\Provider\\RabbitMQProducer.cs",
               "RelativeDocumentMoniker": "..\\RabbitMQ.Provider\\RabbitMQ\\Provider\\RabbitMQProducer.cs",
               "ToolTip": "D:\\konsi_desafio\\RabbitMQ.Provider\\RabbitMQ\\Provider\\RabbitMQProducer.cs",
               "RelativeToolTip": "..\\RabbitMQ.Provider\\RabbitMQ\\Provider\\RabbitMQProducer.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAowBcAAAAzAAAA",
+              "ViewState": "AQIAABkAAAAAAAAAAAAmwCcAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-02-25T20:58:42.395Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 11,
               "Title": "Url.cs",
               "DocumentMoniker": "D:\\konsi_desafio\\konsi\\Constants\\Url.cs",
               "RelativeDocumentMoniker": "Constants\\Url.cs",
@@ -201,12 +149,113 @@
               "RelativeToolTip": "Constants\\Url.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAUAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-25T21:03:43.329Z",
+              "WhenOpened": "2024-02-25T21:03:43.329Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "D:\\konsi_desafio\\konsi\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AuthController.cs",
+              "ToolTip": "D:\\konsi_desafio\\konsi\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "Controllers\\AuthController.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAUwBgAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-25T20:03:45.287Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "D:\\konsi_desafio\\konsi\\Services\\AuthService.cs",
+              "RelativeDocumentMoniker": "Services\\AuthService.cs",
+              "ToolTip": "D:\\konsi_desafio\\konsi\\Services\\AuthService.cs",
+              "RelativeToolTip": "Services\\AuthService.cs",
+              "ViewState": "AQIAABUAAAAAAAAAAADgvyEAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-25T20:52:52.892Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IRabbitMQProducer.cs",
+              "DocumentMoniker": "D:\\konsi_desafio\\RabbitMQ.Provider\\RabbitMQ\\Interfaces\\IRabbitMQProducer.cs",
+              "RelativeDocumentMoniker": "..\\RabbitMQ.Provider\\RabbitMQ\\Interfaces\\IRabbitMQProducer.cs",
+              "ToolTip": "D:\\konsi_desafio\\RabbitMQ.Provider\\RabbitMQ\\Interfaces\\IRabbitMQProducer.cs",
+              "RelativeToolTip": "..\\RabbitMQ.Provider\\RabbitMQ\\Interfaces\\IRabbitMQProducer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-25T21:50:59.857Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "VerifyExistsDataService.cs",
+              "DocumentMoniker": "D:\\konsi_desafio\\Redis.Provider\\Redis\\Services\\VerifyExistsDataService.cs",
+              "RelativeDocumentMoniker": "..\\Redis.Provider\\Redis\\Services\\VerifyExistsDataService.cs",
+              "ToolTip": "D:\\konsi_desafio\\Redis.Provider\\Redis\\Services\\VerifyExistsDataService.cs",
+              "RelativeToolTip": "..\\Redis.Provider\\Redis\\Services\\VerifyExistsDataService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-25T23:24:45.129Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "QueriesCPFs.cs",
+              "DocumentMoniker": "D:\\konsi_desafio\\konsi\\Models\\QueriesCPFs.cs",
+              "RelativeDocumentMoniker": "Models\\QueriesCPFs.cs",
+              "ToolTip": "D:\\konsi_desafio\\konsi\\Models\\QueriesCPFs.cs",
+              "RelativeToolTip": "Models\\QueriesCPFs.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-25T20:07:44.082Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "D:\\konsi_desafio\\konsi\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "appsettings.Development.json",
+              "ToolTip": "D:\\konsi_desafio\\konsi\\appsettings.Development.json",
+              "RelativeToolTip": "appsettings.Development.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-02-25T22:30:29.765Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 9,
+              "Title": "ElasticSearchExtension.cs",
+              "DocumentMoniker": "D:\\konsi_desafio\\ElasticSearch.Provider\\ElasticSearchExtension.cs",
+              "RelativeDocumentMoniker": "..\\ElasticSearch.Provider\\ElasticSearchExtension.cs",
+              "ToolTip": "D:\\konsi_desafio\\ElasticSearch.Provider\\ElasticSearchExtension.cs",
+              "RelativeToolTip": "..\\ElasticSearch.Provider\\ElasticSearchExtension.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABkAAAA/AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-26T00:17:07.853Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ConnectionHelper.cs",
+              "DocumentMoniker": "D:\\konsi_desafio\\Redis.Provider\\ConnectionHelper.cs",
+              "RelativeDocumentMoniker": "..\\Redis.Provider\\ConnectionHelper.cs",
+              "ToolTip": "D:\\konsi_desafio\\Redis.Provider\\ConnectionHelper.cs",
+              "RelativeToolTip": "..\\Redis.Provider\\ConnectionHelper.cs",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAqwBMAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-25T22:39:45.231Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
               "Title": "ConfigurationManager.cs",
               "DocumentMoniker": "D:\\konsi_desafio\\Redis.Provider\\ConfigurationManager.cs",
               "RelativeDocumentMoniker": "..\\Redis.Provider\\ConfigurationManager.cs",
@@ -214,12 +263,11 @@
               "RelativeToolTip": "..\\Redis.Provider\\ConfigurationManager.cs",
               "ViewState": "AQIAAAcAAAAAAAAAAAAiwA8AAAAPAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-25T22:42:26.142Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-02-25T22:42:26.142Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 14,
               "Title": "ICacheService.cs",
               "DocumentMoniker": "D:\\konsi_desafio\\Redis.Provider\\Redis\\Interfaces\\ICacheService.cs",
               "RelativeDocumentMoniker": "..\\Redis.Provider\\Redis\\Interfaces\\ICacheService.cs",
@@ -227,34 +275,7 @@
               "RelativeToolTip": "..\\Redis.Provider\\Redis\\Interfaces\\ICacheService.cs",
               "ViewState": "AQIAAAEAAAAAAAAAAAAiwAUAAABIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-25T22:26:39.748Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "AuthService.cs",
-              "DocumentMoniker": "D:\\konsi_desafio\\konsi\\Services\\AuthService.cs",
-              "RelativeDocumentMoniker": "Services\\AuthService.cs",
-              "ToolTip": "D:\\konsi_desafio\\konsi\\Services\\AuthService.cs",
-              "RelativeToolTip": "Services\\AuthService.cs",
-              "ViewState": "AQIAABQAAAAAAAAAAAAqwCIAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-25T20:52:52.892Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "IRabbitMQProducer.cs",
-              "DocumentMoniker": "D:\\konsi_desafio\\RabbitMQ.Provider\\RabbitMQ\\Interfaces\\IRabbitMQProducer.cs",
-              "RelativeDocumentMoniker": "..\\RabbitMQ.Provider\\RabbitMQ\\Interfaces\\IRabbitMQProducer.cs",
-              "ToolTip": "D:\\konsi_desafio\\RabbitMQ.Provider\\RabbitMQ\\Interfaces\\IRabbitMQProducer.cs",
-              "RelativeToolTip": "..\\RabbitMQ.Provider\\RabbitMQ\\Interfaces\\IRabbitMQProducer.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAgAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-25T21:50:59.857Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-02-25T22:26:39.748Z"
             },
             {
               "$type": "Document",
@@ -266,21 +287,7 @@
               "RelativeToolTip": "Data\\DbContextClass.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAUAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-25T20:11:59.355Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "QueriesCPFs.cs",
-              "DocumentMoniker": "D:\\konsi_desafio\\konsi\\Models\\QueriesCPFs.cs",
-              "RelativeDocumentMoniker": "Models\\QueriesCPFs.cs",
-              "ToolTip": "D:\\konsi_desafio\\konsi\\Models\\QueriesCPFs.cs",
-              "RelativeToolTip": "Models\\QueriesCPFs.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAGAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-25T20:07:44.082Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-02-25T20:11:59.355Z"
             },
             {
               "$type": "Document",
@@ -292,21 +299,7 @@
               "RelativeToolTip": "Models\\UserRequest.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAPAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-25T20:06:10.585Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "AuthController.cs",
-              "DocumentMoniker": "D:\\konsi_desafio\\konsi\\Controllers\\AuthController.cs",
-              "RelativeDocumentMoniker": "Controllers\\AuthController.cs",
-              "ToolTip": "D:\\konsi_desafio\\konsi\\Controllers\\AuthController.cs",
-              "RelativeToolTip": "Controllers\\AuthController.cs",
-              "ViewState": "AQIAAA0AAAAAAAAAAAAvwBgAAAAmAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-25T20:03:45.287Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-02-25T20:06:10.585Z"
             },
             {
               "$type": "Document",
@@ -318,8 +311,7 @@
               "RelativeToolTip": "konsi.csproj",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-02-25T20:15:15.428Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-02-25T20:15:15.428Z"
             },
             {
               "$type": "Document",
@@ -331,8 +323,7 @@
               "RelativeToolTip": "obj\\Debug\\net8.0\\konsi.AssemblyInfo.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-25T20:16:40.939Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-02-25T20:16:40.939Z"
             },
             {
               "$type": "Document",

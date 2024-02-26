@@ -10,3 +10,4 @@ D:\konsi_desafio\ElasticSearch.Provider\obj\Debug\net8.0\ElasticSearch.Provider.
 D:\konsi_desafio\ElasticSearch.Provider\obj\Debug\net8.0\refint\ElasticSearch.Provider.dll
 D:\konsi_desafio\ElasticSearch.Provider\obj\Debug\net8.0\ElasticSearch.Provider.pdb
 D:\konsi_desafio\ElasticSearch.Provider\obj\Debug\net8.0\ref\ElasticSearch.Provider.dll
+D:\konsi_desafio\ElasticSearch.Provider\obj\Debug\net8.0\ElasticSearch.Provider.csproj.AssemblyReference.cache

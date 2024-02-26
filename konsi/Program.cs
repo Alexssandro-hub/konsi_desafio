@@ -12,6 +12,7 @@ builder.Services.AddScoped(typeof(HttpClient));
 builder.Services.AddScoped<IRabbitMQProducer, RabbitMQProducer>();
 builder.Services.AddScoped<ICacheService, CacheService>();
 builder.Services.AddScoped(typeof(AuthService));
+builder.Services.AddScoped(typeof(VerifyExistsDataService));
 
 builder.Services.AddControllers(); 
 builder.Services.AddEndpointsApiExplorer();

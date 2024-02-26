@@ -13,3 +13,6 @@ D:\konsi_desafio\RabbitMQ.Provider\obj\Debug\net8.0\ref\RabbitMQ.Provider.dll
 D:\konsi_desafio\RabbitMQ.Provider\bin\Debug\net8.0\RabbitMQ.Provider.runtimeconfig.json
 D:\konsi_desafio\RabbitMQ.Provider\obj\Debug\net8.0\RabbitMQ.Provider.csproj.AssemblyReference.cache
 D:\konsi_desafio\RabbitMQ.Provider\obj\Debug\net8.0\RabbitMQ.Provider.genruntimeconfig.cache
+D:\konsi_desafio\RabbitMQ.Provider\bin\Debug\net8.0\Redis.Provider.dll
+D:\konsi_desafio\RabbitMQ.Provider\bin\Debug\net8.0\Redis.Provider.pdb
+D:\konsi_desafio\RabbitMQ.Provider\obj\Debug\net8.0\RabbitMQ.79645F61.Up2Date

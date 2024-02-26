@@ -4,6 +4,7 @@ using konsi.Models;
 using RabbitMQ.Provider.RabbitMQ.Interfaces;
 using System.Text;
 using Microsoft.AspNetCore.Http.HttpResults;
+using Newtonsoft.Json;
 
 namespace konsi.Services
 {
@@ -27,14 +28,14 @@ namespace konsi.Services
         public async Task Authentication(UserRequest user)
         {
             var requestUrl = $"{new Url().url}api/v1";
-
-            if (await GetAccessToken(requestUrl, user.Username, user.Password))
+            var token = await GetAccessToken(requestUrl, user.Username, user.Password);
+            if (!string.IsNullOrWhiteSpace(token))
             { 
-                await _producer.CheckBenefits(requestUrl, new QueriesCPFs().CPFs);
+                await _producer.CheckBenefits(requestUrl, token, new QueriesCPFs().CPFs);
             }
         }
 
-        static async Task<bool> GetAccessToken(string apiUrl, string username, string password)
+        static async Task<string> GetAccessToken(string apiUrl, string username, string password)
         {
             using (HttpClient client = new HttpClient())
             { 
@@ -50,8 +51,11 @@ namespace konsi.Services
                     new StringContent(jsonBody, Encoding.UTF8, "application/json"));
                  
                 response.EnsureSuccessStatusCode();
-                  
-                return response.StatusCode.Equals((HttpStatusCode)200);
+                var content = await response.Content.ReadAsStringAsync();
+
+                UserResponse userResponse = JsonConvert.DeserializeObject<UserResponse>(content);
+
+                return userResponse.Data.Token;
             }
         }
     }

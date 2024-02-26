@@ -28,18 +28,21 @@ namespace RabbitMQ.Provider.RabbitMQ.Provider
             _hostingEnvironment = hostingEnvironment;
         }
 
-        public async Task CheckBenefits(string apiUrl, List<string> cpfs)
-        {
+        public async Task CheckBenefits(string apiUrl, string token, List<string> cpfs)
+        { 
             using (HttpClient client = new HttpClient())
             { 
+                client.DefaultRequestHeaders.Add("Authorization", $"Bearer {token}");
+
                 foreach (var cpf in cpfs)
                 {  
                     HttpResponseMessage response = await client.GetAsync($"{apiUrl}/inss/consulta-beneficios?cpf={cpf}");
-                     
+
                     if (response.IsSuccessStatusCode)
                     { 
-                        string content = await response.Content.ReadAsStringAsync();
-                    }
+                        string content = await response.Content.ReadAsStringAsync(); 
+                        //TODO: ADJUST RabbitMQ, ElasticSearch and Redis 
+                    } 
                 }
             }
         }
